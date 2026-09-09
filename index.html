@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Registro Académico · 1ro A</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="top"><div><span class="eyebrow">REGISTRO ACADÉMICO</span><h1>1ro A · 2026–2027</h1><p>Control de calificaciones por competencias</p></div><div class="school">Centro educativo</div></header>
+<main class="wrap">
+<section class="card controls"><label>Estudiante<select id="student"></select></label><label>Buscar asignatura<input id="search" type="search" placeholder="Escribe para filtrar…"></label><button id="export">Exportar CSV</button></section>
+<section class="stats" id="stats"></section>
+<section class="card"><div class="section-title"><div><h2>Calificaciones</h2><p>Registra los cuatro bloques de competencias.</p></div></div><div class="table-wrap"><table><thead><tr><th>Asignatura</th><th>Bloque I</th><th>Bloque II</th><th>Bloque III</th><th>Bloque IV</th><th>Promedio</th><th>Final</th><th>Estado</th></tr></thead><tbody id="grades"></tbody></table></div></section>
+</main><script src="/app.js"></script>
+</body></html>
